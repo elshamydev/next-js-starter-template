@@ -1,0 +1,28 @@
+/*
+Theme Name: Qatar Tender Management
+Theme URI: https://example.com/qatar-tender-theme
+Author: Your Name
+Author URI: https://example.com
+Description: Responsive and RTL-compatible WordPress theme for Qatar-based Projects and Tender Management Platform.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: qatar-tender
+Tags: responsive, rtl, custom, projects, tender, management
+*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+@media (max-width: 768px) {
+  /* Responsive styles */
+  body {
+    font-size: 16px;
+  }
+}
